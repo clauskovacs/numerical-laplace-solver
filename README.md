@@ -9,3 +9,5 @@ Initial/Boundary-files are stored in the folder laplace_files. All values marked
 The resulting (final) potential will be stored in the folder *pot_out*
 
 The source code of the main file needs to be adapted if a different potential should be generated (see comments in the file)
+
+One of the results can be seen at: https://www.youtube.com/watch?v=tzwLN4l16k4
