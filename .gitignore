@@ -1,0 +1,3 @@
+# exclude folders containing the generating images
+* pot_out/
+* gnuplot_figs/
