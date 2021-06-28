@@ -1,3 +1,4 @@
 # exclude folders containing the generating images
-* pot_out/
-* gnuplot_figs/
+pot_out/
+gnuplot_figs/
+resulting_potential_and_animation/
