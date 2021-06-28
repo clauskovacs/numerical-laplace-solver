@@ -213,12 +213,13 @@ for y in range(1, dim_y-1):
 pot_output.close()
 # gen the electric field
 
+efield_animation_folder = 'electric_field_and_animation/'
 
 # Gnuplot - gen plots
 file_plot_efeld = open('plot_ef.plt', "w")
 
 print >> file_plot_efeld, 'set term png enhanced size 5000,5000'
-print >> file_plot_efeld, 'set output "'+ fname_file +'efeld.png"'
+print >> file_plot_efeld, 'set output "' + efield_animation_folder + fname_file +'aefeld.png"'
 print >> file_plot_efeld, 'e(x,y)=x/sqrt(x**2+y**2)'
 print >> file_plot_efeld, 'factor = 0.5'
 print >> file_plot_efeld, 'xyf = 1'
@@ -282,4 +283,4 @@ system('gnuplot multiplot.plt')
 print
 
 print "creating the Video"
-system('ffmpeg -framerate 10 -i gnuplot_figs/graph%d.png -c:v libx264 -preset 0 -crf 0 -r 30 -pix_fmt yuv420p '+ fname_file +'.mp4 -y') # -y -> überschreibt die alte Datei
+system('ffmpeg -framerate 10 -i gnuplot_figs/graph%d.png -c:v libx264 -preset 0 -crf 0 -r 30 -pix_fmt yuv420p '+ efield_animation_folder + fname_file +'.mp4 -y') # -y -> überschreibt die alte Datei

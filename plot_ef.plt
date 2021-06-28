@@ -1,5 +1,5 @@
 set term png enhanced size 5000,5000
-set output "pl_ko60x60_kreuzefeld.png"
+set output "electric_field_and_animation/pl_ko60x60_kreuzaefeld.png"
 e(x,y)=x/sqrt(x**2+y**2)
 factor = 0.5
 xyf = 1
