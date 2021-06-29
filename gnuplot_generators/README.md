@@ -1,0 +1,3 @@
+This folder contains the Gnuplot generators (*.plt files) which are written and created dynamically by the program (to match the read input geometry file names). Three files are in this folder:
+1. The files *loop.plt* and *multiplot.plt* generate the animation of the iterative algorithm, i.e., the electric potential depending on the iteration point which will be saved in the folder electric_field_and_animation/.
+2. The file *plot_electric_field.plt* is responsible for generating the electric field of the **last** iteration (which fulfills the provided threshold via the maximum norm. This image is saved in the folder electric_field_and_animation/ as well.

@@ -1,1 +1,1 @@
-This folder contains the animation of the program (convergence of the potential) as well as an image of the electric field (final iteration of the program).
+This folder contains the animation of the program (iterative convergence of the potential) as well as an image of the electric field (representing the final iteration of the program). Additionally the raw data generating the image of the electric field is provided.

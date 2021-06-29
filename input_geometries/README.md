@@ -1,0 +1,1 @@
+This folder contains the files which define the (two-dimensional) problems of which the potential and electric field may be calculated numerically using this program. Any value marked by a star (*) is not subject to change, i.e., it's value will remain constant during computation.
