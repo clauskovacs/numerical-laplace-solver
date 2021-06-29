@@ -28,13 +28,13 @@ input_file_geometry = 'pl_ko' + str(dim_x) + 'x' + str(dim_y)
 input_file = f_dir + input_file_geometry + '.dat'
 """
 
-
+"""
 #zyl-100x100-20-49-0.dat
 dim_x = 100
 dim_y = 100
 input_file_geometry = 'zyl-' + str(dim_x) + 'x' + str(dim_y) + '-20-49-0'
 input_file = f_dir + input_file_geometry + '.dat'
-
+"""
 
 """
 #loch_ko60x60.dat.dat
@@ -92,13 +92,13 @@ input_file_geometry = 'zyl-' + str(dim_x) + 'x' + str(dim_y) + '-40-98-40'
 input_file = f_dir + input_file_geometry + '.dat'
 """
 
-"""
+
 #pl_ko60x60_kreuz.dat
 dim_x = 60
 dim_y = 60
 input_file_geometry = 'pl_ko' + str(dim_x) + 'x' + str(dim_y) + '_kreuz'	
 input_file = f_dir + input_file_geometry + '.dat'
-"""
+
 
 """
 #zyl-260x260-100-125-0
@@ -176,7 +176,7 @@ the animation will be created (and stored in the folder electric_field_and_anima
 skip_iterations = 1		# save a snapshot of every nth iteration
 file_name_counter = 0	# total number of files (0 ... ~iteration_counter/skip_iterations)
 
-stop_threshold = 1e-2	# stop the iterations when this threshold has been reached
+stop_threshold = 1e-3	# stop the iterations when this threshold has been reached
 
 # the potential after the finite difference iteration
 potential_iteration = [[0 for x in range(dim_x)] for y in range(dim_y)]

@@ -47,4 +47,4 @@ The following settings may be done to the program `lp.py`:
 
 ## Additional information
 
-A video of the propagation of the algorithm will be created, as well as a plot of the electric field. One of the results can be found at: <https://www.youtube.com/watch?v=tzwLN4l16k4>
+A video of the propagation of the algorithm will be created, as well as a plot of the electric field. Animated results showing the electric potential vs. iterations can be found exemplarily at: <https://www.youtube.com/watch?v=tzwLN4l16k4> and <https://youtu.be/FtZGFcEHYiQ>
