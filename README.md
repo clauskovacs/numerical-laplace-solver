@@ -29,7 +29,7 @@ In the folder **pot_out**, the resulting electric potentials for each iteration 
 
 ## Dependencies
 
-To generate the figures and the animation, **Gnuplot** as well as **FFmpeg** is required. Additional information about these can be found in:  
+To generate the figures and the animation, **Gnuplot** as well as **FFmpeg** is required. Additional information about these can be found at:  
 <https://www.ffmpeg.org/>  
 and  
 <http://www.gnuplot.info/>  
