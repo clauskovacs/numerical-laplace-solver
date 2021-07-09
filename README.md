@@ -40,7 +40,7 @@ Run the program with `python lp.py`
 
 ## Program settings
 
-The following settings may be done to the program `lp.py`:
+The following settings may be done in the program `lp.py`:
 1. Input geometries as shown at the begining of the program.
 2. The variable `skip_iterations` which controls the resolution of the data saved. A value of one means, the electric potential will be saved each iteration. A value of two means every second iteration will be saved, etc.
 3. The variable `stop_threshold` defines the value at which the iterative solver stops. Using the function `maximum_norm(U_ij_new, U_ij_old)` calculates the maximum norm over the whole geometry (as a difference between two iterations). If this value returned by the function is smaller than the set threshold, the program stops.
