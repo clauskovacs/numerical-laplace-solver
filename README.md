@@ -34,17 +34,17 @@ To generate the figures and the animation, **Gnuplot** as well as **FFmpeg** is 
 and  
 <http://www.gnuplot.info/>  
 
-## Executing the program
+## Executing the Program
 
 Run the program with `python lp.py`
 
-## Program settings
+## Program Settings
 
 The following settings may be done in the program `lp.py`:
 1. Input geometries as shown at the begining of the program.
 2. The variable `skip_iterations` which controls the resolution of the data saved. A value of one means, the electric potential will be saved each iteration. A value of two means every second iteration will be saved, etc.
 3. The variable `stop_threshold` defines the value at which the iterative solver stops. Using the function `maximum_norm(U_ij_new, U_ij_old)` calculates the maximum norm over the whole geometry (as a difference between two iterations). If this value returned by the function is smaller than the set threshold, the program stops.
 
-## Additional information
+## Additional Information
 
 A video of the propagation of the algorithm will be created, as well as a plot of the electric field. Animated results showing the electric potential vs. iterations can be found exemplarily at: <https://www.youtube.com/watch?v=tzwLN4l16k4> and <https://youtu.be/FtZGFcEHYiQ>
